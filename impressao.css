@@ -1,0 +1,22 @@
+@media print {
+        .img-me {
+        width: 50%; /* Reduz o tamanho das imagens para 50% na impressão */
+        display: block; /* Garante que as imagens se comportem como blocos */
+        margin: 20px auto; /* Centraliza as imagens horizontalmente */
+		
+    }
+	
+	.img-banner {
+		
+		display: none;
+	}
+	
+	.btn-link  {
+		
+			display: none;
+	}
+		
+		
+		
+	
+}

@@ -1,0 +1,72 @@
+#tituloFormulario {
+	
+	text-align:center;
+	
+}
+
+
+
+/* Estilos para o formulário */
+#meuFormulario {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center; /* Alinha o texto dentro do formulário ao centro */
+    margin: 0 auto; /* Centraliza o formulário na página */
+}
+
+/* Estilos para os rótulos */
+label {
+    display: block; /* Cada rótulo em uma linha */
+    margin-bottom: 10px; /* Espaçamento entre os rótulos */
+}
+
+/* Estilos para os campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: calc(100% - 20px); /* Largura total do campo, menos o espaçamento de 20px */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Cantos arredondados */
+    margin-bottom: 10px; /* Espaçamento entre os campos */
+    text-align: left; /* Alinha o texto dentro do campo à esquerda */
+}
+
+/* Estilos para o botão de envio */
+input[type="submit"] {
+    width: calc(100% - 20px); /* Largura total do botão, menos o espaçamento de 20px */
+    padding: 10px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Cantos arredondados */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    cursor: pointer; /* Cursor de apontar */
+}
+
+/* Estilização do botão quando hover */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura quando hover */
+}
+
+
+.btn-link {
+            position: fixed;
+            top: 30px; /* distância do topo */
+            left: 80%; /* distância da esquerda */
+            padding: 10px 20px;
+            background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3); /* gradiente arco-íris */
+            color: #fff; /* cor do texto branco */
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            z-index: 999; /* para garantir que o botão fique acima de outros elementos */
+        }
+
+        .btn-link:hover {
+            opacity: 0.8; /* reduzir a opacidade ao passar o mouse */	
+		}
